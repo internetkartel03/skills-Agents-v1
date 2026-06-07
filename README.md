@@ -1,12 +1,12 @@
-# Skills Agents v1
+# Zouk Skills & Agents
 
 A commercial-ready AI skills and agents library for teams, builders, consultants, and operators who want a structured way to organize reusable AI workflows.
 
-This repository provides a modular operating layer for agents, skills, loadouts, routing logic, audits, research workflows, security checks, planning systems, and automation patterns.
+Zouk Skills & Agents provides a modular operating layer for agents, skills, loadouts, routing logic, audits, research workflows, security checks, planning systems, and automation patterns.
 
 ## What This Is
 
-Skills Agents v1 is not a single chatbot prompt. It is a reusable library of AI operating components:
+Zouk Skills & Agents is not a single chatbot prompt. It is a reusable library of AI operating components:
 
 - **Agents** — specialist roles for focused work.
 - **Skills** — repeatable workflows and playbooks.
@@ -29,7 +29,7 @@ Skills Agents v1 is not a single chatbot prompt. It is a reusable library of AI 
 
 Most AI agent setups become messy fast. People collect prompts, agents, scripts, and skills without a system for choosing what to use.
 
-This repo is built around a cleaner model:
+Zouk Skills & Agents is built around a cleaner model:
 
 1. Keep the full library available.
 2. Load only the smallest useful set.
@@ -74,4 +74,4 @@ Treat imported scripts, hooks, and automation files as review-required until ver
 
 ## Commercial Positioning
 
-This repository can be sold as a starter operating system for AI workflows, agent teams, local AI setups, and consultant/client delivery systems.
+Zouk Skills & Agents can be sold as a starter operating system for AI workflows, agent teams, local AI setups, and consultant/client delivery systems.
