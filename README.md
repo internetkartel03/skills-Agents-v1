@@ -1,52 +1,77 @@
-# Metallic.v1 Skills + Agents OS
+# Skills Agents v1
 
-A modular operating layer for AI skills, agents, workflows, hooks, and reusable execution patterns.
+A commercial-ready AI skills and agents library for teams, builders, consultants, and operators who want a structured way to organize reusable AI workflows.
 
-This repository is designed to hold a large library of agents and skills without forcing every model/session to load everything at once. The goal is simple: keep the full library available, but route only the right tools into the right job.
+This repository provides a modular operating layer for agents, skills, loadouts, routing logic, audits, research workflows, security checks, planning systems, and automation patterns.
 
-## Core Idea
+## What This Is
 
-- **Agents** are specialist roles.
-- **Skills** are reusable workflows.
-- **Hooks/scripts** are automation and enforcement surfaces.
-- **Loadouts** are project-specific bundles.
-- **Router files** decide what should be used for each task.
+Skills Agents v1 is not a single chatbot prompt. It is a reusable library of AI operating components:
+
+- **Agents** — specialist roles for focused work.
+- **Skills** — repeatable workflows and playbooks.
+- **Loadouts** — task-specific bundles for different work modes.
+- **Catalogs** — inventory and organization layers.
+- **Routing** — guidance for selecting the right skill or agent for the job.
+
+## Who It Is For
+
+- AI consultants
+- automation builders
+- local AI users
+- Claude Code / Codex users
+- Open WebUI users
+- founders and operators
+- dev teams building agent workflows
+- agencies packaging AI systems for clients
+
+## Why It Matters
+
+Most AI agent setups become messy fast. People collect prompts, agents, scripts, and skills without a system for choosing what to use.
+
+This repo is built around a cleaner model:
+
+1. Keep the full library available.
+2. Load only the smallest useful set.
+3. Route tasks into the right skill or agent.
+4. Separate daily tools from searchable library assets.
+5. Keep risky scripts and hooks reviewed before use.
 
 ## Recommended Operating Model
 
-Do not load the entire repo into every Open WebUI, Claude, Codex, or local model session.
+Use three layers:
 
-Use this model instead:
+### Core
+Small always-on operating layer.
 
-1. **CORE** — always-loaded operating layer.
-2. **LOADOUTS** — project/task-specific bundles.
-3. **LIBRARY** — searchable long-tail skills and agents.
+### Loadouts
+Project-specific or task-specific bundles.
+
+### Library
+Large searchable collection of long-tail skills and agents.
+
+Do not load the entire repository into every model session.
 
 ## Start Here
 
-Read these files first:
+- `CORE.md` — recommended always-on layer.
+- `LOADOUTS.md` — project and session bundles.
+- `CATALOG.md` — inventory and classification notes.
 
-- `CORE.md` — the small set of always-on skills/agents.
-- `ROUTER.md` — task-to-skill routing map.
-- `LOADOUTS.md` — Open WebUI and project bundle recommendations.
-- `CATALOG.md` — current known index and audit notes.
+## Example Use Cases
 
-## High-Value Use Cases
+- Build a local Open WebUI agent workspace.
+- Organize Claude Code skills and subagents.
+- Audit a repo before installing workflows.
+- Create a searchable prompt and skill library.
+- Build client-ready AI workflow packages.
+- Prepare projects for public release.
+- Route research, coding, security, planning, and business workflows.
 
-- Local Open WebUI agent setup
-- Claude Code / Codex workflow setup
-- Skill and agent routing
-- Website/app audit workflows
-- Security review before public release
-- Open-source project packaging
-- Business workflow automation
-- Lead intelligence and client acquisition
-- Prompt optimization and context control
+## Safety Note
 
-## Safety Rule
+Treat imported scripts, hooks, and automation files as review-required until verified. Do not auto-run executable files before reviewing what they do.
 
-Scripts, hooks, and imported/community skills should be treated as untrusted until reviewed. Do not auto-run hooks or shell scripts until they are categorized and approved in a loadout.
+## Commercial Positioning
 
-## Maintenance
-
-Run or adapt `scripts/catalog.mjs` to generate a fresh inventory of skills, agents, hooks, commands, and potentially risky executable files.
+This repository can be sold as a starter operating system for AI workflows, agent teams, local AI setups, and consultant/client delivery systems.
