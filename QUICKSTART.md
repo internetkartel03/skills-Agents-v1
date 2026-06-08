@@ -1,15 +1,36 @@
 # Zouk Skills & Agents — Quick Start
 
-## Step 1
+**60 agents. 232 skills. Get running in under 5 minutes.**
 
-Review:
+---
 
-- README.md
-- CORE.md
-- LOADOUTS.md
-- CATALOG.md
+## Step 1 — Install
 
-These files explain how the system is organized.
+### For Claude Code
+```bash
+# Copy agents
+cp -r agents/ ~/.claude/agents/
+
+# Copy skills
+cp -r skills/ ~/.claude/skills/
+```
+
+### For Open WebUI
+Upload the `agents/` and `skills/` folders via Workspace → Knowledge.
+
+### For Any AI Tool
+Drop the `agents/` and `skills/` folders wherever your tool reads context files from.
+
+---
+
+## Step 2
+
+Review these orientation files:
+
+- [README.md](README.md) — what this product is
+- [CORE.md](CORE.md) — the always-on operating layer
+- [LOADOUTS.md](LOADOUTS.md) — pre-built bundles for specific work modes
+- [CATALOG.md](CATALOG.md) — full inventory and classification
 
 ## Step 2
 

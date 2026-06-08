@@ -54,6 +54,9 @@ Do not load the entire repository into every model session.
 
 ## Start Here
 
+👉 **[00-START-HERE.md](00-START-HERE.md)** — begin here after downloading.
+
+- `QUICKSTART.md` — get running in 5 minutes.
 - `CORE.md` — recommended always-on layer.
 - `LOADOUTS.md` — project and session bundles.
 - `CATALOG.md` — inventory and classification notes.
